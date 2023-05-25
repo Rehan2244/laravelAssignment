@@ -1,0 +1,135 @@
+
+.formpart{
+  border: 1px solid #000;
+    border-radius: 8px;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.form-control{
+  display: block;
+    width: calc(100% - 24px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.text-start {
+  text-align: left !important;
+}
+
+.rowItem{
+  width:33.33%
+}
+
+.formpart .btn {
+  min-width: 200px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.form-label{
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+.btn-warning {
+  color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  /* transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out; */
+}
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+.bnrsection .formpart fieldset {
+  border: 1px solid #8d8d8d !important;
+  padding: 8px 15px 15px !important;
+  margin: 0 0 !important;
+  border-radius: 5px;
+}
+.row {
+  /* display: flex; */
+  width: 100%;
+}
+.btn-warning:hover {
+  color: #000;
+  background-color: #ffca2c;
+  border-color: #ffc720;
+}
+
+.text-center{
+  text-align: center !important;
+}
+.text-start{
+  text-align: start !important;
+}
+.btn-success {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+.formpart .form-check .form-check-label {
+  background: #00adef;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+}
+.formpart .form-check .form-check-label {
+  background: #00adef;
+  padding: 15px;
+  width: 100% !important;
+  display: block;
+  color: #fff;
+}
+
+.formpart .form-check {
+  display: block;
+  padding: 0;
+  width: 45%;
+  width: 50%;
+  margin: 1% auto;
+  float: none;
+}
+.form-check-input{
+  display: none;
+}
+#slide03{
+  display: flex !important;
+  flex-direction: column;
+}
+.formpart .form-check .form-check-input:checked+.form-check-label {
+  background-color: #004e83;
+}
+#slide03 .form-check .form-check-label {
+  width: 400px;
+}
